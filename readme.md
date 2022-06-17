@@ -1,6 +1,6 @@
 # Student Informatin System
 
-*It was created using the **Constructor** methods.
+* It was created using the **Constructor** methods.
 
 ### Properties of the Course Class
 * **Attribute**: name,code,prefix,note,courseTeacher, verbalMark,

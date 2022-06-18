@@ -16,7 +16,9 @@ public class Student {
         this.math = math;
         this.phys = phys;
         this.chem = chem;
-
+        this.math.contributeRate = 0.8;
+        this.phys.contributeRate = 0.7;
+        this.chem.contributeRate = 0.75;
         this.isPass = false;
     }
 
@@ -30,15 +32,12 @@ public class Student {
     void addBulkExamNote(int math, int phys, int chem) {
         if (math >= 0 && math < 100) {
             this.math.note = math;
-            this.math.contributeRate = 0.8;
         }
         if (phys >= 0 && phys < 100) {
             this.phys.note = phys;
-            this.phys.contributeRate = 0.7;
         }
         if (chem >= 0 && chem < 100) {
             this.chem.note = chem;
-            this.chem.contributeRate = 0.75;
         }
     }
 

@@ -1,4 +1,4 @@
-# Student Informatin System
+# Student Information System
 
 * It was created using the **Constructor** methods.
 
